@@ -1,0 +1,45 @@
+.h1 {
+	color:blue;
+	text-align:center;
+}
+
+
+.text {
+	align-items:flex-start;
+	
+}
+
+
+.h2 {
+	 color:blue;
+	 text-align:center;
+	 font-size:15px;
+ }
+ 
+ 
+.box{
+	font-size:16px;
+	line-height:30px;
+	font-weight:400px;
+	text-align: justify;
+	margin-top:20px;
+	margin: 0 auto;
+	background-color:#f7efef;
+	text-indent:25px;
+	width: 400px;
+	
+}
+
+
+.redword{
+	color:red;
+	font-weight: bold;
+}
+
+
+.blueword{
+	color:blue;
+	font-weight:italic;
+}
+
+
