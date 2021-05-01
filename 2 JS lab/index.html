@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab9</title>
+</head>
+<body>
+        <form method="get" class="forma" name="form">
+                <div class="header">
+                    Заповніть форму:
+                </div>
+                <div class="items">
+                    <input type="text" required class="pasport-input input" placeholder="Номер паспорта" name="one">
+                </div>
+                <div class="items">
+                    <input type="text" required class="date-input input" placeholder="Дата видачі" name="two"> 
+                </div>
+                <div class="items">
+                    <input type="text" required class="who-input input" placeholder="Хто видав" name="three">
+                </div>
+    
+                <div class="submit">
+                    <input type="submit" value="Відправити" class="btn-submit input" name="btnsubmit">
+                </div>
+                </form >
+                <br>
+        <br>
+
+        <div class="modal-window" id="popap">
+            <div id="pasport" class="modal-items">1</div>
+            <div id="who" class="modal-items">2</div>
+            <input type="button" value="Ok" class="btn-ok modal-items" id="btn-ok">
+        </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
