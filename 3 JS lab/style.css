@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 98, 161);
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.red-box{
+    background-color: rgb(255, 0, 0);
+    animation-delay: 4.5s;
+    animation-name: anime;
+    animation-duration: 10s;
+}
+
+
+@keyframes anime{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+    to{
+        background-color: rgb(255, 0, 0);;
+    }
+}
